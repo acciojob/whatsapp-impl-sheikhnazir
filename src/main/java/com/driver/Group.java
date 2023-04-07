@@ -1,26 +1,15 @@
 package com.driver;
 
 public class Group {
-    public Object setName;
     private String name;
     private int numberOfParticipants;
 
-    public Group(Object setName, String name, int numberOfParticipants) {
-        this.setName = setName;
+    public Group() {
+    }
+
+    public Group(String name, int numberOfParticipants) {
         this.name = name;
         this.numberOfParticipants = numberOfParticipants;
-    }
-
-    public Group() {
-
-    }
-
-    public Object getSetName() {
-        return setName;
-    }
-
-    public void setSetName(Object setName) {
-        this.setName = setName;
     }
 
     public String getName() {
